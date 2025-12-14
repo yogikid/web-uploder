@@ -4,5 +4,13 @@
     "redirect_uri": "http://localhost:3000/auth/callback",
     "refresh_token": "your-refresh-token",
     "folder_id": "your-google-drive-folder-id",
-    "mongo_uri": "mongodb://localhost:27017"
+    "redis_addr": "localhost:6379",
+    "redis_password": "",
+    "redis_db": 0,
+    "s3_endpoint": "",
+    "s3_region": "us-east-1",
+    "s3_bucket": "your-bucket-name",
+    "s3_access_key_id": "your-access-key",
+    "s3_secret_access_key": "your-secret-key",
+    "storage_backend": "drive"
 }
